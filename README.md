@@ -12,6 +12,8 @@ HtmlHelpers
 
 Example usage
 
+```html
+
 <div class="blog-masthead">
         <div class="container">
             <nav class="blog-nav">
@@ -22,3 +24,4 @@ Example usage
         </div>
     </div>
   
+```
