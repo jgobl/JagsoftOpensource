@@ -7,8 +7,8 @@
     <ProjectGuid>{4174798F-FB10-45AC-B3E7-56073F7B71BD}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>JagsoftOpenSource</RootNamespace>
-    <AssemblyName>JagsoftOpenSource</AssemblyName>
+    <RootNamespace>JagsoftOpenSource.HtmlHelpers</RootNamespace>
+    <AssemblyName>JagsoftOpenSource.HtmlHelpers</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

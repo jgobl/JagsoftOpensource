@@ -6,9 +6,9 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("JagsoftOpenSource")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("JagsoftOpenSource")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("Jagsoft")]
 [assembly: AssemblyProduct("JagsoftOpenSource")]
 [assembly: AssemblyCopyright("Copyright ©  2014")]
 [assembly: AssemblyTrademark("")]
