@@ -40,7 +40,7 @@ namespace JagsoftOpenSource.HtmlHelpers
             {
                 if (routeValues != null && routeValues.ContainsKey("Area"))
                 {
-                    return routeValues["Area"].ToString().Equals(currentArea);
+                    return routeValues["Area"].ToString().Equals(currentArea, StringComparison.OrdinalIgnoreCase);
                 }
 
                 return string.IsNullOrWhiteSpace(currentArea);
@@ -50,7 +50,7 @@ namespace JagsoftOpenSource.HtmlHelpers
             {               
                 return (actionName.Equals(htmlHelper.ViewContext.RouteData.Values["action"].ToString(), StringComparison.OrdinalIgnoreCase)
                 && controllerName.Equals(htmlHelper.ViewContext.RouteData.Values["controller"].ToString(), StringComparison.OrdinalIgnoreCase)
-                && routeValues["Area"].ToString().Equals(currentArea));
+                && routeValues["Area"].ToString().Equals(currentArea, StringComparison.OrdinalIgnoreCase));
           
             }
 
