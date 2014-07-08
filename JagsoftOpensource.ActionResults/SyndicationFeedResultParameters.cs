@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace JagsoftOpensource.ActionResults
 {
-    public class SyndicationFeedResultsParameters
+    public class SyndicationFeedResultParameters
     {
         public SyndicationFeedFormatter FeedFormatter { get; set; }
         public string ContentType { get; set; }

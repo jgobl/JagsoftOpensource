@@ -12,17 +12,17 @@ namespace JagsoftOpensource.ActionResults
     {
         #region private Members
 
-        private SyndicationFeedResultsParameters syndicationFeedResultsParameters;
+        private SyndicationFeedResultParameters syndicationFeedResultParameters;
 
         #endregion
 
         #region Public Properties
 
-        public SyndicationFeedResultsParameters SyndicationFeedResultsParameters
+        public SyndicationFeedResultParameters SyndicationFeedResultParameters
         {
             get
             {
-                return syndicationFeedResultsParameters;
+                return syndicationFeedResultParameters;
             }
         }
 
@@ -32,9 +32,9 @@ namespace JagsoftOpensource.ActionResults
 
         #region Public Constructors
 
-        public SyndicationFeedResult(SyndicationFeedResultsParameters syndicationFeedResultsParameters)
+        public SyndicationFeedResult(SyndicationFeedResultParameters syndicationFeedResultParameters)
         {
-            this.syndicationFeedResultsParameters = syndicationFeedResultsParameters;
+            this.syndicationFeedResultParameters = syndicationFeedResultParameters;
         }
 
         #endregion
@@ -45,12 +45,12 @@ namespace JagsoftOpensource.ActionResults
         {
             var response = context.RequestContext.HttpContext.Response;
 
-            response.ContentType = syndicationFeedResultsParameters.ContentType;
+            response.ContentType = syndicationFeedResultParameters.ContentType;
 
             using (var xmlWriter = new XmlTextWriter(response.Output))
             {
                 xmlWriter.Formatting = Formatting.Indented;
-                syndicationFeedResultsParameters.FeedFormatter.WriteTo(xmlWriter);
+                syndicationFeedResultParameters.FeedFormatter.WriteTo(xmlWriter);
             }
         }
 

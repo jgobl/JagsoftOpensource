@@ -71,7 +71,7 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SyndicationFeedResult.cs" />
-    <Compile Include="SyndicationFeedResultsParameters.cs" />
+    <Compile Include="SyndicationFeedResultParameters.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
