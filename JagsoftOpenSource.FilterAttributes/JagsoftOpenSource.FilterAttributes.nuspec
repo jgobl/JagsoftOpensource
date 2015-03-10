@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>$author$</authors>
+    <owners>$author$</owners>
+    <licenseUrl>https://github.com/jgobl/JagsoftOpensource</licenseUrl>
+    <projectUrl>https://github.com/jgobl/JagsoftOpensource</projectUrl>
+    <iconUrl>https://github.com/jgobl/JagsoftOpensource</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>$description$</description>
+    <releaseNotes>Custom ASP.NET MVC Filters</releaseNotes>
+    <copyright>Copyright 2015</copyright>
+    <tags>ASP.NET MVC</tags>
+  </metadata>
+  <files>
+    <file src="content/test.txt" target="" />
+    <file src="content/web.config.transform" target="content" /> 
+	<file src="content/JagsoftOpenSourceFilterAttributesStartUp.cs.pp" target="content/App_Start" /> 		
+</files>
+</package>

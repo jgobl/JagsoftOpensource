@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>$author$</authors>
+    <owners>$author$</owners>
+    <licenseUrl>https://github.com/jgobl/JagsoftOpensource</licenseUrl>
+    <projectUrl>https://github.com/jgobl/JagsoftOpensource</projectUrl>
+    <iconUrl>https://github.com/jgobl/JagsoftOpensource</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>$description$</description>
+    <releaseNotes>Custom ASP.NET MVC Action Results</releaseNotes>
+    <copyright>Copyright 2015</copyright>
+    <tags>ASP.NET MVC</tags>
+  </metadata>
+</package>
