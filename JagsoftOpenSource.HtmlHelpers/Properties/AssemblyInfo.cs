@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("JagsoftOpenSource")]
-[assembly: AssemblyDescription("JagsoftOpenSource")]
+[assembly: AssemblyTitle("JagsoftOpenSource.HtmlHelpers")]
+[assembly: AssemblyDescription("Custom Html Helpers")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Jagsoft")]
-[assembly: AssemblyProduct("JagsoftOpenSource")]
+[assembly: AssemblyProduct("JagsoftOpenSource.HtmlHelpers")]
 [assembly: AssemblyCopyright("Copyright ©  2014")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

@@ -6,7 +6,7 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("JagsoftOpenSource.FilterAttributes")]
-[assembly: AssemblyDescription("Filter Attributes Assembley")]
+[assembly: AssemblyDescription("Custom Filter Attributes")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Jagsoft")]
 [assembly: AssemblyProduct("JagsoftOpenSource.FilterAttributes")]
