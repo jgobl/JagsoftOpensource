@@ -15,4 +15,7 @@
     <copyright>Copyright 2015</copyright>
     <tags>ASP.NET MVC</tags>
   </metadata>
+  <files>
+    <file src="bin\$configuration$\$id$.pdb" target="lib\net45\" />
+  </files>
 </package>
